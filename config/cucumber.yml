@@ -1,0 +1,7 @@
+# To run based on environment use the following syntax in the command line:
+# EXAMPLE: cucumber --profile <name>
+
+
+default: --format html --out report.html --format pretty -r features/step_definitions -r features/support features ENVIRONMENT="production"
+
+staging: --format html --out report.html --format pretty -r features/step_definitions -r features/support features ENVIRONMENT="staging"

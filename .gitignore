@@ -1,0 +1,5 @@
+.idea/*
+*.log
+*.jpg
+logs/*
+config/environments/*.yml
